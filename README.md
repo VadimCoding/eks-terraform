@@ -2,6 +2,7 @@
 A terraform configuration that deploys a EKS cluster
 
 ## Architecture
+![EKS](https://user-images.githubusercontent.com/17970350/177563284-000f679f-c55e-46b4-b99f-10ca84ede7f5.png)
 
 The main components we need/want to deploy are : 
 - **EKS Cluster**, which is going to be the control plan of our Kubernetes cluster with parameters like : 
