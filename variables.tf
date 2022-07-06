@@ -34,29 +34,3 @@ variable "cluster-name" {
   description = "Name of the EKS cluster"
   type        = string
 }
-
-
-// Application Confiruation
-# variable "instance1_name" {
-#   description = "Value of the Name tag for the EC2 instance"
-#   type        = string
-#   default     = "App1"
-
-# }
-
-# variable "instance2_name" {
-#   description = "Value of the Name tag for the EC2 instance"
-#   type        = string
-#   default     = "App2"
-
-# }
-
-# variable "instance_type" {
-#   description = "The type of the instances"
-#   type = string
-# }
-
-# variable "instance_ami_id" {
-#   description = "The AMI id for the instance"
-#   type = string
-# }
