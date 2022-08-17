@@ -17,7 +17,7 @@ The main components we need/want to deploy are :
 
 ## To deploy this configuration you must :
 - Install the terraform CLI (https://learn.hashicorp.com/tutorials/terraform/install-cli)
-- Download the code `git pull https://github.com/VadimCoding/eks-terraform.git``
+- Download the code `git pull https://github.com/VadimCoding/eks-terraform.git`
 - Set the variables in *terraform.tfvars* 
 - You can choose to specify your aws_access_key and aws_secret_key in the *terraform.tfvars* but I strongly recommand you to use environnement variable instead with TF_VAR_aws_access_key and TF_VAR_aws_secret_key, its a better practise than keeping your credentials in several files.
 - Then, you are ready to launch `terraform init`, `terraform plan`, `terraform apply`
